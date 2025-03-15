@@ -119,7 +119,7 @@ Program berjalan dengan alur sebagai berikut:
 
 1. Membuat objek data dari berbagai komponen komputer:
    - CPU Intel Core i7
-   - RAM Corsair Vengeance (2 modul)
+   - RAM Corsair Vengeance
    - Motherboard ASUS ROG Strix
    - SSD Samsung 970 EVO
    - HDD Seagate Barracuda
