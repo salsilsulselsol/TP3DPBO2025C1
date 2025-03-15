@@ -137,7 +137,7 @@ Program berjalan dengan alur sebagai berikut:
 5. Menampilkan spesifikasi komputer setelah upgrade
 
 # KHUSUS JAVA
-Karena dalam Java tidak bisa menggunakan multiple inheritance langsung seperti di C++ ataupun Python. Jadinya aku pakai inheritance (extends) dari Speaker dan implementasi (implements) dari interface SmartDeviceInterface (isinya fungsi getter setter atribut SmartDevice), source dari geeksforgeeks yah, **gatau proper atau ngga kaya gitu tapi jalan sih walaupun kuning-kuning kodenya**.
+Karena dalam Java tidak bisa menggunakan multiple inheritance langsung seperti di C++ ataupun Python. Jadinya aku pakai inheritance (extends) dari Speaker dan implementasi (implements) dari interface SmartDeviceInterface (isinya fungsi getter setter atribut SmartDevice), tapi karena di fungsi ada parameter menggunakan atribut maka perlu composition juga biar fungsinya berjalan.**Gatau proper atau ngga kaya gitu tapi jalan sih walaupun kuning-kuning kodenya**.
 
 # Dokumentasi (C++)
 ![image](https://github.com/user-attachments/assets/795987e4-d0e9-42d0-be19-33b12aee53d1)
