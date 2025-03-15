@@ -136,5 +136,8 @@ Program berjalan dengan alur sebagai berikut:
 
 5. Menampilkan spesifikasi komputer setelah upgrade
 
-# Dokumentasi
-<soon>
+# Dokumentasi (C++)
+![image](https://github.com/user-attachments/assets/795987e4-d0e9-42d0-be19-33b12aee53d1)
+
+![image](https://github.com/user-attachments/assets/efa02902-1ed7-4504-9efb-b83cc616ac4d)
+
