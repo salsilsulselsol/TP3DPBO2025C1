@@ -17,9 +17,7 @@ public class SmartSpeaker extends Speaker implements SmartDeviceInterface {
         this.asisten = "";
     }
 
-    public SmartSpeaker(String merk, String nama, int harga, String jenisKoneksi, boolean terhubung,
-                       int dayaOutput, boolean stereo, boolean wifiEnabled, String networkName,
-                       String asisten) {
+    public SmartSpeaker(String merk, String nama, int harga, String jenisKoneksi, boolean terhubung, int dayaOutput, boolean stereo, boolean wifiEnabled, String networkName, String asisten) {
         super(merk, nama, harga, jenisKoneksi, terhubung, dayaOutput, stereo);
         this.smartDevice = new SmartDevice(wifiEnabled, networkName);
         this.asisten = asisten;
@@ -27,12 +25,16 @@ public class SmartSpeaker extends Speaker implements SmartDeviceInterface {
 
     // Setter methods
     public void setAsisten(String asisten) { this.asisten = asisten; }
+    @Override
     public void setWifiEnabled(boolean wifiEnabled) { smartDevice.setWifiEnabled(wifiEnabled); }
+    @Override
     public void setNetworkName(String networkName) { smartDevice.setNetworkName(networkName); }
 
     // Getter methods
     public String getAsisten() { return asisten; }
+    @Override
     public boolean getWifiEnabled() { return smartDevice.getWifiEnabled(); }
+    @Override
     public String getNetworkName() { return smartDevice.getNetworkName(); }
 
     // Tampilkan Info
