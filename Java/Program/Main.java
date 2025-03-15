@@ -8,7 +8,6 @@ public class Main {
         
         List<RAM> ramList = new ArrayList<>();
         ramList.add(new RAM("Corsair", "Vengeance", 1200000, "DIMM", true, 16, "DDR4"));
-        ramList.add(new RAM("Corsair", "Vengeance", 1200000, "DIMM", true, 16, "DDR4"));
         
         Motherboard mobo = new Motherboard("ASUS", "ROG Strix", 4800000, "ATX", true, "Z690", "ATX");
         
